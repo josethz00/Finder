@@ -9,7 +9,7 @@ CORS(app)
 
 app.config['MONGODB_SETTINGS'] = {
     'db': 'finder',
-    'host': 'mongodb+srv://josethz00:fljtjvle@finderdatabase.u6g0p.mongodb.net/fljtjvle?retryWrites=true&w=majority'
+    'host': 'mongodb+srv://username:password@clustername.u6g0p.mongodb.net/password?retryWrites=true&w=majority'
 }
 
 db = MongoEngine()
